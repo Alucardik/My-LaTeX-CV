@@ -1,0 +1,9 @@
+name: 'My CV'
+description: 'Build pdf version of LateX CV'
+inputs:
+outputs:
+runs:
+    using: 'docker'
+    image: 'Dockerfile'
+    args:
+        -
