@@ -9,4 +9,4 @@ jobs:
     steps:
       - name: make pdf
         id: pdftext
-        uses: actions/My-LaTeX-CV@v1
+        uses: actions/build-cv@main

@@ -1,4 +1,4 @@
-name: 'Build CV'
+name: 'build-cv'
 description: 'Build pdf version of LateX CV'
 runs:
     using: 'docker'
