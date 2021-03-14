@@ -1,11 +1,12 @@
+name: Update CV
+
 on: [push]
 
 jobs:
-  make_pdf_job:
-    runs-on: debian-10.3
-    name: A job to make pdf
+  make_pdf:
+    runs-on: ubuntu-latest
+    name: PDF-TEX compiler
     steps:
-    - name: make pdf action step
-      id: pdftext
-      uses: My-LaTeX-CV/My-LaTeX-CV@v1
-
+      - name: make pdf
+        id: pdftext
+        uses: actions/My-LaTeX-CV@v1
